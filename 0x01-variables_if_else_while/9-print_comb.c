@@ -7,13 +7,14 @@ int main(void)
 {
 	int num;
 
-	for (num = 58; num <= 57; num++)
+	for (num = 58; num < 58; num++)
 	{
 		putchar(num);
 		if (num == 57)
-			continue;
-		putchar(',');
-		putchar(' ');
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
