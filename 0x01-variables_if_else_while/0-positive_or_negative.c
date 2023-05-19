@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point 
+ * main - Prints if the number is +,- or 0
  * Return: Always 0
  */
 int main(void)
