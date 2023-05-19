@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Prints all possible different combinations of 2 digits
+ * main - Prints all possible different combinations of 3 digits
  * Return: Always 0
  */
 int main(void)
