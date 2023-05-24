@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_last_digit - Prints the last digit
+ * @n: The value to be tested
+ * Return: The last digit
  */
 int print_last_digit(int n)
 {
