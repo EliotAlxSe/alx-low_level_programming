@@ -4,9 +4,9 @@
  */
 void print_numbers(void)
 {
-	char ch;
+	int n = 0;
 
-	for (ch = '0'; ch <= '9'; ch++)
+	for (; ch <= '9'; ch++)
 	{
 		if (ch == '2' || ch == '4')
 			continue;
