@@ -6,12 +6,12 @@ void print_numbers(void)
 {
 	int n = 0;
 
-	for (; ch <= '9'; ch++)
+	for (; n <= 9; n++)
 	{
-		if (ch == '2' || ch == '4')
+		if (n == 2 ||n == 4)
 			continue;
 		else
-			_putchar(ch + '0');
+			_putchar(n + '0');
 	}
 	_putchar('\n');
 }
