@@ -4,14 +4,12 @@
  */
 void print_numbers(void)
 {
-	int n;
+	char ch;
 
-	for (n = 0; n <= 9; n++)
+	for (ch = '0'; ch <= '9'; ch++)
 	{
-		if (n == 2 || n == 4)
-			continue;
-		else
-			_putchar(n + '0');
+		if (!(ch == '2' || ch '4'))
+			_putchar(ch);
 	}
 	_putchar('\n');
 }
