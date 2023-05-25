@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * main - Testing for zero
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
