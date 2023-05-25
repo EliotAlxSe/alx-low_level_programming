@@ -1,14 +1,14 @@
 #include "main.h"
 /**
  * print_line - Draws a diagonal line
- * @size: the size of the square
+ * @n: the number of times the character \ should be printed
  * Return: void
  */
 void print_line(int n)
 {
 	int p, q;
 
-	if (n <= 0)
+	if (ise <= 0)
 		_putchar('\n');
 	else
 	{
