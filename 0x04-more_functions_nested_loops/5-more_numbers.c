@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_numbers - Prints # from 0 to 14 x10
+ * more_numbers - Prints # from 0 to 14 x10
  * Return: void
  */
-void print_numbers(void)
+void more_numbers(void)
 {
 	int i, j;
 
