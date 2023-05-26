@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_diagonal - Draws a diagonal line
+ * print_line - Draws a diagonal line
  * @n: the number of times the character \ should be printed
  * Return: void
  */
-void print_diagonal(int n)
+void print_line(int n)
 {
 	int p, q;
 
