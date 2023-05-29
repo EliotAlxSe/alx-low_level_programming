@@ -8,5 +8,12 @@
  */
 void print_rev(char *s)
 {
-	strrev(s);
+	int i, len, n;
+	len = strlen(s);
+	for (i = 0; i < len / 2; i++)
+	{
+		n = s[i];
+		s[i] = s[len - i - 1];
+		s[len - i - 1] = n
+	}
 }
