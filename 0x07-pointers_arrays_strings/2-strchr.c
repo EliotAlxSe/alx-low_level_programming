@@ -4,7 +4,7 @@
  * @s: String
  * @c: Charecter
  *
- * Return: a pointer to the first occurrence of the character 
+ * Return: a pointer to the 1st char
  */
 char *_strchr(char *s, char c)
 {
