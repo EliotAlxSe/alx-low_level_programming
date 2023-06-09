@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * sqrt_ - Natural square root 
  * @n: Integer of a square root
@@ -19,7 +20,7 @@ if (sqrt == n)
 {
 return (i);
 }
-return (sqrt_(n , i + 1));
+return (sqrt_(n, i + 1));
 }
 /**
  * _sqrt_recursion - returns the natural square root of a number.
