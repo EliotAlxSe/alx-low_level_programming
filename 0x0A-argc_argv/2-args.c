@@ -9,17 +9,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int res, num1, num2;
+	int count;
 
-	if (argc < 3 || argc > 3)
-	{
-		printf("Error\n");
-		return (1);
-	}
-	num1 = _atoi(argv[1]);
-	num2 = _atoi(argv[2]);
-	res = num1 * num2;
-
-	printf("%d\n", res);
+	for (count = 0; count < argc; count++)
+		printf("%s\n", argv[count];);
 	return (0);
 }
