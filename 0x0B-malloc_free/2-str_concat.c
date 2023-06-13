@@ -6,7 +6,7 @@
  * @s1: The first string 
  * @s2: The second string
  *
- * Return: @s1+@s2. If Nothing is passed then return NULL
+ * Return: @s1 conc @s2. If Nothing is passed then return NULL
  */
 char *str_concat(char *s1, char *s2)
 {
@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 			str_result[k] = s1[k];
 		if (k >= i)
 		{
-			str_result[k] = s2[k];
+			str_result[k] = s2[j];
 			j++;
 		}
 		k++;
