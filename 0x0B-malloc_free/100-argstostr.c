@@ -7,10 +7,10 @@
  *
  * Return: Pointer String or NULL if it fails
  */
- char *argstostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	char *str;
-	int ch = 0, i = 0 ; j = 0, k = 0;
+	int ch = 0, i = 0, j = 0, k = 0;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
