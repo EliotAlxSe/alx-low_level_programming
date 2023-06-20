@@ -25,7 +25,7 @@ int _strlen(char *s)
  *
  * Return: Pointer to dest
  */
-char *strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int len;
 	len = 0;
@@ -60,14 +60,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (dog == NULL)
 		return (NULL);
 	dog->name = malloc(sizeof(char) * (len1 + 1));
-
-	if (dog->name == NULL)
+	if (dog->ame == NULL)
 	{
 		free(dog);
-		free(NULL);
+		return (NULL);
 	}
 	dog->owner = malloc(sizeof(char) * (len2 + 1));
-
 	if (dog->owner == NULL)
 	{
 		free(dog);
